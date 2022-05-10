@@ -6,7 +6,7 @@ MARIA GIULIA PESSANHA
 
 package Questao7;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
         String string = "Exemplo de uso de métodos para Strings";
         for (int i = 0, len = string.length(); i < len; i++) {
