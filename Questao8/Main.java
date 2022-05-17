@@ -18,9 +18,11 @@ public class Main {
 
         for (int i = (tamanhoString - 1); i >=0; --i) {
             stringReverso.append(str.charAt(i));
+            //criando um string ao contrário com stringbuilder
         }
         if (str.equalsIgnoreCase(stringReverso.toString())) {
             System.out.println("Palindromo");
+            //verificando se é palíndromo ignorando minúsculo e maiúsculo
         }
         else {
             System.out.println("Não palíndromo");
