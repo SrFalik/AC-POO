@@ -6,7 +6,7 @@ MARIA GIULIA PESSANHA
 
 package Questao1;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
         int numero1 = 0, numero2 = 1;
             for (int i = 0; i < 15; i++) {

@@ -6,7 +6,7 @@ MARIA GIULIA PESSANHA
 
 package Questao5;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
         long n = 1, p;
         int qtd = 0;
