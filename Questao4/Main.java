@@ -12,6 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //PI = circunferencia / diametro
         System.out.println("Digite a circunferência");
         double circ = sc.nextDouble();
         System.out.println("Digite o diâmetro");
@@ -20,6 +21,7 @@ public class Main {
         System.out.println(pi);
         System.out.println();
         System.out.println("Usando função Math.PI()");
+        //Função Math.PI() que já existe em java e é mais precisa
         System.out.println(Math.PI);
     }
 }
