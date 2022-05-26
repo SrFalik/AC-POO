@@ -6,25 +6,21 @@ MARIA GIULIA PESSANHA
 
 package Questao4;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        //Série de Leibniz
-        int repeticoes = 2147483647;
-        double pi = 0;
-        double denominador = 1;
-
-        for (int contador = 0; contador < repeticoes; contador++) {
-
-            if (contador % 2 == 0) {
-                pi = pi + (1 / denominador);
-            } else {
-                pi = pi - (1 / denominador);
-            }
-            denominador = denominador + 2;
-        }
-        pi = pi * 4;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite a circunferência");
+        double circ = sc.nextDouble();
+        System.out.println("Digite o diâmetro");
+        double diam = sc.nextDouble();
+        double pi = circ/diam;
         System.out.println(pi);
+        System.out.println();
+        System.out.println("Usando função Math.PI()");
+        System.out.println(Math.PI);
     }
 }
 
